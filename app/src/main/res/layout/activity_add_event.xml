@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/colorBackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <ScrollView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/colorBackground"
+        android:layout_weight="9">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context="com.example.szabo.organizer.AddEventActivity"
+            android:background="@color/colorBackground">
+
+            <EditText
+                android:id="@+id/eventTypeField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:ems="10"
+                android:hint="@string/eventType"
+                android:inputType="textCapSentences|textMultiLine" />
+
+            <EditText
+                android:id="@+id/descriptionField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/eventTypeField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:hint="@string/description"
+                android:inputType="textCapSentences|textMultiLine" />
+
+            <Button
+                android:id="@+id/datePickerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/descriptionField"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/selectDate"
+                android:background="@drawable/shape"/>
+
+            <Button
+                android:id="@+id/locationButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/datePickerButton"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:text="@string/selectLocation"
+                android:background="@drawable/shape"/>
+
+            <ImageButton
+                android:id="@+id/selectImageButton"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/locationButton"
+                android:layout_marginTop="15dp"
+                android:background="#FFFFFF"
+                android:scaleType="centerCrop"
+                android:src="@drawable/select_image"
+                android:layout_marginBottom="15dp"
+                android:padding="10dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/addEventButton"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/addEvent"
+        android:background="@color/colorAccent"
+        android:layout_weight="1"/>
+</LinearLayout>

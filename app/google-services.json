@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "899142219805",
+    "firebase_url": "https://organizer-e340d.firebaseio.com",
+    "project_id": "organizer-e340d",
+    "storage_bucket": "organizer-e340d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899142219805:android:7495fcdf87efacad",
+        "android_client_info": {
+          "package_name": "com.example.szabo.organizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899142219805-l5rlnl2h68csi8jiavtqht8ho3m2204n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.szabo.organizer",
+            "certificate_hash": "b74e2ab12ce063e6b346c17237495c0517458406"
+          }
+        },
+        {
+          "client_id": "899142219805-lbig92p2trcvjji83jei9cccr4vs0apc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBii5_uuRPxZGXFaU42S0OZ04vInY8usdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899142219805-lbig92p2trcvjji83jei9cccr4vs0apc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
